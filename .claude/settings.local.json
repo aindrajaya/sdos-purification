@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)", 
+      "Bash(git status)",
+      "Bash(git diff)",
+      "Bash(ls -R)" 
+    ],
+    "deny": [
+      "Bash(git push*)",
+      "Bash(npm publish)"
+    ]
+  },
+  "model": "claude-3-5-sonnet-20240620"
+}
